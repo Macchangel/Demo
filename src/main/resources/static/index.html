@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>echarts3中国地图下钻至县级</title>
+	<link rel="stylesheet" type="text/css" href="static/css/main.css">
+	<!-- Echarts3 -->
+	<script type="text/javascript" src="static/js/echarts.min.js"></script>
+	<!-- 全国344个市、区、州对应的数字编号 -->
+	<script type="text/javascript" src="static/js/citymap.js"></script>
+</head>
+<body>
+<div id="container" style="width: 100%; height: 800px;">
+    <div id="sidebar" style="width: 20%; height: 100%; float: left;">
+        <div style="margin: 25px">
+            <br>
+            起始时间：<input id="startDate" type="text" name="startDate" value="2019-01"><br>
+            结束时间：<input id="endDate" type="text" name="endDate" value="2020-05"><br>
+            关键词：<input id="keyword" type="text" name="keyword"><br>
+            <input id="submit" type="button" value="Submit">
+        </div>
+    </div>
+    <div id="main" style="width: 80%;height: 100%; float: left;"></div>
+</div>
+<p></p>
+<script type="text/javascript" src="static/js/jquery.min.js"></script>
+<script type="text/javascript" src="static/js/app.js"></script>
+<script type="text/javascript" src="static/js/taiduile.js"></script>
+</body>
+</html>
